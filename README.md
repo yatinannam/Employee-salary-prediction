@@ -6,7 +6,7 @@ This project is a **Streamlit web app** that predicts whether an employee earns 
 
 ## 🚀 Live Demo
 
-🔗 [Click here to try the app]([https://YOUR_STREAMLIT_APP_URL](https://employee-salary-prediction-cnwpsq48hihfu2ers6avs5.streamlit.app/])
+🔗 [Click here to try the app](https://employee-salary-prediction-cnwpsq48hihfu2ers6avs5.streamlit.app/)
 
 ---
 
