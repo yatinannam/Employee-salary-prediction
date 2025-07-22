@@ -47,8 +47,16 @@ if submit:
     }
 
     input_df = pd.DataFrame([input_dict])
+
+    # Safe encoding
     for col in input_df.columns:
-        input_df[col] = label_encoders[col].transform(input_df[col])
+        if col in label_encoders:
+            le = label_encoders[col]
+            try:
+                input_df[col] = le.transform(input_df[col])
+            except ValueError as e:
+                st.error(f"Invalid input for '{col}': {input_df[col].values[0]}")
+                st.stop()
 
     prediction = model.predict(input_df)[0]
     result = ">50K" if prediction == 1 else "<=50K"
