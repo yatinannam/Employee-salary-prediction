@@ -1,16 +1,16 @@
-# 🧠 Employee Salary Prediction App
+# Employee Salary Prediction App
 
 This project is a **Streamlit web app** that predicts whether an employee earns more than \$50K per year based on demographic data, using a **Random Forest Classifier** trained on the UCI Adult Income dataset (`adult.csv`).
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-🔗 [Click here to try the app](https://employee-salary-prediction-cnwpsq48hihfu2ers6avs5.streamlit.app/)
+[Click here to try the app](https://employee-salary-prediction-cnwpsq48hihfu2ers6avs5.streamlit.app/)
 
 ---
 
-## 📊 Features
+## Features
 
 - User-friendly **Streamlit interface**
 - Model trained using **Random Forest**
@@ -21,7 +21,7 @@ This project is a **Streamlit web app** that predicts whether an employee earns 
 
 ---
 
-## 📌 Input Features
+## Input Features
 
 - Age
 - Workclass
@@ -40,7 +40,7 @@ This project is a **Streamlit web app** that predicts whether an employee earns 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - pandas, numpy, scikit-learn
@@ -52,10 +52,12 @@ This project is a **Streamlit web app** that predicts whether an employee earns 
 
 ---
 
-## 📦 Installation (Optional for Local Use)
+## Installation (Optional for Local Use)
 
 ```bash
 git clone https://github.com/yourusername/employee-salary-prediction.git
 cd employee-salary-prediction
 pip install -r requirements.txt
 streamlit run app.py
+```
+---
